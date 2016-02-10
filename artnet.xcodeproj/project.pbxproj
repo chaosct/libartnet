@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDCDADFC1C6B9E76002BC546 /* artnet.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCDADD21C6B9E76002BC546 /* artnet.c */; };
+		BDCDADFD1C6B9E76002BC546 /* artnet.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCDADD31C6B9E76002BC546 /* artnet.h */; };
+		BDCDADFE1C6B9E76002BC546 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCDADD41C6B9E76002BC546 /* common.h */; };
+		BDCDADFF1C6B9E76002BC546 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCDADD61C6B9E76002BC546 /* misc.c */; };
+		BDCDAE001C6B9E76002BC546 /* misc.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCDADD71C6B9E76002BC546 /* misc.h */; };
+		BDCDAE011C6B9E76002BC546 /* network.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCDADD81C6B9E76002BC546 /* network.c */; };
+		BDCDAE021C6B9E76002BC546 /* packets.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCDADD91C6B9E76002BC546 /* packets.h */; };
+		BDCDAE031C6B9E76002BC546 /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCDADDA1C6B9E76002BC546 /* private.h */; };
+		BDCDAE041C6B9E76002BC546 /* receive.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCDADDB1C6B9E76002BC546 /* receive.c */; };
+		BDCDAE051C6B9E76002BC546 /* tod.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCDADDC1C6B9E76002BC546 /* tod.c */; };
+		BDCDAE061C6B9E76002BC546 /* tod.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCDADDD1C6B9E76002BC546 /* tod.h */; };
+		BDCDAE071C6B9E76002BC546 /* transmit.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCDADDE1C6B9E76002BC546 /* transmit.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDCDADC91C6B9E4D002BC546 /* libartnet.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libartnet.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDCDADD21C6B9E76002BC546 /* artnet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = artnet.c; sourceTree = "<group>"; };
+		BDCDADD31C6B9E76002BC546 /* artnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = artnet.h; sourceTree = "<group>"; };
+		BDCDADD41C6B9E76002BC546 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		BDCDADD51C6B9E76002BC546 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		BDCDADD61C6B9E76002BC546 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		BDCDADD71C6B9E76002BC546 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		BDCDADD81C6B9E76002BC546 /* network.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = network.c; sourceTree = "<group>"; };
+		BDCDADD91C6B9E76002BC546 /* packets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = packets.h; sourceTree = "<group>"; };
+		BDCDADDA1C6B9E76002BC546 /* private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = private.h; sourceTree = "<group>"; };
+		BDCDADDB1C6B9E76002BC546 /* receive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = receive.c; sourceTree = "<group>"; };
+		BDCDADDC1C6B9E76002BC546 /* tod.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tod.c; sourceTree = "<group>"; };
+		BDCDADDD1C6B9E76002BC546 /* tod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tod.h; sourceTree = "<group>"; };
+		BDCDADDE1C6B9E76002BC546 /* transmit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transmit.c; sourceTree = "<group>"; };
+		BDCDADDF1C6B9E76002BC546 /* artnet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = artnet.xcodeproj; sourceTree = "<group>"; };
+		BDCDADE21C6B9E76002BC546 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		BDCDADE31C6B9E76002BC546 /* BUGS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BUGS; sourceTree = "<group>"; };
+		BDCDADE41C6B9E76002BC546 /* ChangeLog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		BDCDADE51C6B9E76002BC546 /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		BDCDADE61C6B9E76002BC546 /* configure.ac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.ac; sourceTree = "<group>"; };
+		BDCDADE71C6B9E76002BC546 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		BDCDADE91C6B9E76002BC546 /* changelog */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changelog; sourceTree = "<group>"; };
+		BDCDADEA1C6B9E76002BC546 /* compat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = compat; sourceTree = "<group>"; };
+		BDCDADEB1C6B9E76002BC546 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		BDCDADEC1C6B9E76002BC546 /* copyright */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = copyright; sourceTree = "<group>"; };
+		BDCDADED1C6B9E76002BC546 /* docs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = docs; sourceTree = "<group>"; };
+		BDCDADEE1C6B9E76002BC546 /* libartnet-dev.install */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "libartnet-dev.install"; sourceTree = "<group>"; };
+		BDCDADEF1C6B9E76002BC546 /* libartnet1.install */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libartnet1.install; sourceTree = "<group>"; };
+		BDCDADF01C6B9E76002BC546 /* libartnet1.postinst */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = libartnet1.postinst; sourceTree = "<group>"; };
+		BDCDADF11C6B9E76002BC546 /* libartnet1.postrm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = libartnet1.postrm; sourceTree = "<group>"; };
+		BDCDADF21C6B9E76002BC546 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		BDCDADF31C6B9E76002BC546 /* rules */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rules; sourceTree = "<group>"; };
+		BDCDADF41C6B9E76002BC546 /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		BDCDADF51C6B9E76002BC546 /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		BDCDADF61C6B9E76002BC546 /* libartnet.pc.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = libartnet.pc.in; sourceTree = "<group>"; };
+		BDCDADF71C6B9E76002BC546 /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		BDCDADF81C6B9E76002BC546 /* NEWS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		BDCDADF91C6B9E76002BC546 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		BDCDADFA1C6B9E76002BC546 /* README.debian */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.debian; sourceTree = "<group>"; };
+		BDCDADFB1C6B9E76002BC546 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDCDADC61C6B9E4D002BC546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDCDADC01C6B9E4D002BC546 = {
+			isa = PBXGroup;
+			children = (
+				BDCDADD01C6B9E76002BC546 /* libartnet */,
+				BDCDADCA1C6B9E4D002BC546 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDCDADCA1C6B9E4D002BC546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDCDADC91C6B9E4D002BC546 /* libartnet.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCDADD01C6B9E76002BC546 /* libartnet */ = {
+			isa = PBXGroup;
+			children = (
+				BDCDADD11C6B9E76002BC546 /* artnet */,
+				BDCDADDF1C6B9E76002BC546 /* artnet.xcodeproj */,
+				BDCDADE21C6B9E76002BC546 /* AUTHORS */,
+				BDCDADE31C6B9E76002BC546 /* BUGS */,
+				BDCDADE41C6B9E76002BC546 /* ChangeLog */,
+				BDCDADE51C6B9E76002BC546 /* config.h.in */,
+				BDCDADE61C6B9E76002BC546 /* configure.ac */,
+				BDCDADE71C6B9E76002BC546 /* COPYING */,
+				BDCDADE81C6B9E76002BC546 /* debian */,
+				BDCDADF41C6B9E76002BC546 /* Doxyfile */,
+				BDCDADF51C6B9E76002BC546 /* INSTALL */,
+				BDCDADF61C6B9E76002BC546 /* libartnet.pc.in */,
+				BDCDADF71C6B9E76002BC546 /* Makefile.am */,
+				BDCDADF81C6B9E76002BC546 /* NEWS */,
+				BDCDADF91C6B9E76002BC546 /* README */,
+				BDCDADFA1C6B9E76002BC546 /* README.debian */,
+				BDCDADFB1C6B9E76002BC546 /* TODO */,
+			);
+			name = libartnet;
+			sourceTree = "<group>";
+		};
+		BDCDADD11C6B9E76002BC546 /* artnet */ = {
+			isa = PBXGroup;
+			children = (
+				BDCDADD21C6B9E76002BC546 /* artnet.c */,
+				BDCDADD31C6B9E76002BC546 /* artnet.h */,
+				BDCDADD41C6B9E76002BC546 /* common.h */,
+				BDCDADD51C6B9E76002BC546 /* Makefile.am */,
+				BDCDADD61C6B9E76002BC546 /* misc.c */,
+				BDCDADD71C6B9E76002BC546 /* misc.h */,
+				BDCDADD81C6B9E76002BC546 /* network.c */,
+				BDCDADD91C6B9E76002BC546 /* packets.h */,
+				BDCDADDA1C6B9E76002BC546 /* private.h */,
+				BDCDADDB1C6B9E76002BC546 /* receive.c */,
+				BDCDADDC1C6B9E76002BC546 /* tod.c */,
+				BDCDADDD1C6B9E76002BC546 /* tod.h */,
+				BDCDADDE1C6B9E76002BC546 /* transmit.c */,
+			);
+			path = artnet;
+			sourceTree = "<group>";
+		};
+		BDCDADE01C6B9E76002BC546 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDCDADE81C6B9E76002BC546 /* debian */ = {
+			isa = PBXGroup;
+			children = (
+				BDCDADE91C6B9E76002BC546 /* changelog */,
+				BDCDADEA1C6B9E76002BC546 /* compat */,
+				BDCDADEB1C6B9E76002BC546 /* control */,
+				BDCDADEC1C6B9E76002BC546 /* copyright */,
+				BDCDADED1C6B9E76002BC546 /* docs */,
+				BDCDADEE1C6B9E76002BC546 /* libartnet-dev.install */,
+				BDCDADEF1C6B9E76002BC546 /* libartnet1.install */,
+				BDCDADF01C6B9E76002BC546 /* libartnet1.postinst */,
+				BDCDADF11C6B9E76002BC546 /* libartnet1.postrm */,
+				BDCDADF21C6B9E76002BC546 /* Makefile.am */,
+				BDCDADF31C6B9E76002BC546 /* rules */,
+			);
+			path = debian;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDCDADC71C6B9E4D002BC546 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCDAE061C6B9E76002BC546 /* tod.h in Headers */,
+				BDCDADFD1C6B9E76002BC546 /* artnet.h in Headers */,
+				BDCDAE001C6B9E76002BC546 /* misc.h in Headers */,
+				BDCDAE031C6B9E76002BC546 /* private.h in Headers */,
+				BDCDAE021C6B9E76002BC546 /* packets.h in Headers */,
+				BDCDADFE1C6B9E76002BC546 /* common.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDCDADC81C6B9E4D002BC546 /* artnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDCDADCD1C6B9E4D002BC546 /* Build configuration list for PBXNativeTarget "artnet" */;
+			buildPhases = (
+				BDCDADC51C6B9E4D002BC546 /* Sources */,
+				BDCDADC61C6B9E4D002BC546 /* Frameworks */,
+				BDCDADC71C6B9E4D002BC546 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = artnet;
+			productName = artnet;
+			productReference = BDCDADC91C6B9E4D002BC546 /* libartnet.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDCDADC11C6B9E4D002BC546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = libartnet;
+				TargetAttributes = {
+					BDCDADC81C6B9E4D002BC546 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = BDCDADC41C6B9E4D002BC546 /* Build configuration list for PBXProject "artnet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDCDADC01C6B9E4D002BC546;
+			productRefGroup = BDCDADCA1C6B9E4D002BC546 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BDCDADE01C6B9E76002BC546 /* Products */;
+					ProjectRef = BDCDADDF1C6B9E76002BC546 /* artnet.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BDCDADC81C6B9E4D002BC546 /* artnet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDCDADC51C6B9E4D002BC546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDCDAE051C6B9E76002BC546 /* tod.c in Sources */,
+				BDCDAE011C6B9E76002BC546 /* network.c in Sources */,
+				BDCDAE041C6B9E76002BC546 /* receive.c in Sources */,
+				BDCDADFC1C6B9E76002BC546 /* artnet.c in Sources */,
+				BDCDADFF1C6B9E76002BC546 /* misc.c in Sources */,
+				BDCDAE071C6B9E76002BC546 /* transmit.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDCDADCB1C6B9E4D002BC546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDCDADCC1C6B9E4D002BC546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDCDADCE1C6B9E4D002BC546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDCDADCF1C6B9E4D002BC546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDCDADC41C6B9E4D002BC546 /* Build configuration list for PBXProject "artnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCDADCB1C6B9E4D002BC546 /* Debug */,
+				BDCDADCC1C6B9E4D002BC546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDCDADCD1C6B9E4D002BC546 /* Build configuration list for PBXNativeTarget "artnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDCDADCE1C6B9E4D002BC546 /* Debug */,
+				BDCDADCF1C6B9E4D002BC546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDCDADC11C6B9E4D002BC546 /* Project object */;
+}
